@@ -1,0 +1,84 @@
+/*Cette partie me permet d'afficher le titre du cv a coté de l'image*/
+#header
+  {
+    position: absolute;
+    left : 350px;
+    bottom : 475px;
+  }
+
+/*Cette partie gère l'affichage entre les 2 blocs sous le titre et l'image (la partie citation etc et la partie formation etc)*/
+#grosbloc
+  {
+    height:100%;
+    margin:auto;
+    text-align: justify;
+  }
+ 
+#gauche
+  {
+    float:left;
+    width:350px;
+    height:100%;
+  }
+ 
+#droite
+  {
+    width:600px;
+    height:100%;
+    margin-left:400px;
+  } 
+
+/*Cette partie est la pour décorer la partie sous la photo (afin de respecter les consignes d'encadrement)*/
+#citation
+  {
+    border: dotted;
+    border-radius: 10px;
+    background-color: #00BFFF;
+    color: blue;
+  }
+
+#reve
+  {
+    border : 1px blue outset;
+  }
+
+/*Cette partie sert a rendre ma photo droite*/
+.rotateimg
+  {
+    -webkit-transform: rotate(270deg);
+      -moz-transform: rotate(270deg);
+      -ms-transform: rotate(270deg);
+      -o-transform: rotate(270deg);
+      transform: rotate(270deg);
+  }
+
+/* Cette partie est la pour ajouter un peu de fantaisie au site (couleur des polices etc)*/
+a
+  {
+    color: blue;
+  } 
+h1
+  {
+    color: blue;
+  }
+body
+  {
+    font-family: "Oswald";
+  }
+ul 
+  {
+    list-style-type:circle;
+    text-decoration: underline;
+  }
+
+ol
+  {
+    list-style-type:disc;
+  }
+/*Cette partie me permet d'avancer un peu le dernier texte afin qu'il soit alignée avec les autres, cette solution est complètement
+bricolée, je ferai quelque chose de plus propre la prochaine fois désolé */
+
+#espace
+  {
+    white-space: pre;
+  }
